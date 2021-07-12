@@ -5,9 +5,8 @@ workflows:
     max_build_duration: 120
     environment:
       vars:
-        XCODE_WORKSPACE: "Runner.xcworkspace"
-        XCODE_SCHEME: "Runner"                
-        # https://docs.codemagic.io/code-signing-yaml/signing-ios/
+         XCODE_WORKSPACE: "Runner.xcworkspace"
+         XCODE_SCHEME: "Runner"                
          APP_STORE_CONNECT_ISSUER_ID: Encrypted(Z0FBQUFBQmc3Q0UxYnN0YS1PYjdkblFfemppQkdfR2RTV1FiclpHRVVsdUcwb1R6dkFyRnRWU1RLbFc4Z1BIUURwQUxfZHBiVGpkalAyUzI3OFpqWjdZbi1HUGtzLVZGWlh3dk5tRG1tQ1VMeTNwSXFKT0ZWOVY2amNvdDRLTEQ0Nmh2UU9NM19xbEI=) # <-- Put your encrypted App Store Connect Issuer Id here 
          APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(Z0FBQUFBQmc3Q0QyNG1Jd1c4TFl5ZVVyNmFoZHVVbFFKZzVmNm1PTjlYZE1ab3dIYkx1MWJzcnkzRlVSalhwVXNpSHZUdW9jQ3o2TkhXdW5WUVZNd1V2bzZtOWZzZmpmdWc9PQ==) # <-- Put your encrypted App Store Connect Key Identifier here 
          APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(Z0FBQUFBQmc3Q0VicVpVMDV1QWt0M1YxLTJCUXRublN4bC1MTlhoUnoxZnZ0ODkwUk0wNkJtVDB2UGgxWEtHRGU0ODRYeDBuTHkyVVNQeGpqVUxpekRZelZUamhiYkNrTEFsM2Q3SnJDMEJQNWdDTk5VVXgyaUROVXBnMWVPY1MxUk1GTUNZTTNCRERLTlFtT29Lb0UtQ0FEOERIWU5fZWdrTm5JS1N6RnlMenRzdE00Z2w3aWtNdkU5Qnd0SmlNWlp5ZGlkVG1MNXFObGlSNEFHMnVIRU9KUjY1d0tyYmtTdW9rSjNBLUJoX0tzWVgwdmZCYkZCN2g1NzBFemtfS0ZDeE9vMlB2ZU95MlItWXRoQzdEOTdFcTU3ZXhFb1pacERiNUVSOWhDN2QwMkhHOFFJSVNiTmFXUm5hR1RldzNsT0RUOXVLZFVRcTEzUFpsSW5UcVB4dnhIMlotLTZGRFVyMTI3ZHRabVFhZGJoQzJRLXRrNmFfSUI2RDBTV1ZHcHk5bURmblhNZHpOUnVTVnhBY1JsNnRGb3lXdUdjU1Y5Z3F2VFBBcGtxNjhxRUFfYmVnVEFYWT0=) # <-- Put your encrypted App Store Connect Private Key here 
