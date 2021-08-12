@@ -1,10 +1,10 @@
 workflows:
   ios-workflow:
    name: iOS Workflow
-#    scripts:
-#        - name: Flutter build ipa and automatic versioning
-#          script: |
-#            flutter build ipa 
+   scripts:
+       - name: Flutter build ipa
+         script: |
+           flutter build ipa --debug
    artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
