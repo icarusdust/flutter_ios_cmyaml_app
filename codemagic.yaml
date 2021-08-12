@@ -1,7 +1,7 @@
 workflows:
   ios-workflow:
    name: iOS Workflow
-    scripts:
+   scripts:
        - name: Flutter build ipa and automatic versioning
          script: |
            flutter build ipa 
