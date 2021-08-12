@@ -1,14 +1,12 @@
 workflows:
   ios-workflow:
    name: iOS Workflow
-   scripts:
-       - name: Flutter build ipa
-         script: |
-           flutter build ipa --debug
+#    scripts:
+#        - name: Flutter build ipa
+#          script: |
+#            flutter build ipa --debug
    artifacts:
-      - build/ios/ipa/*.ipa
-      - /tmp/xcodebuild_logs/*.log
-      - flutter_drive.log
+       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
    publishing:
       # See the following link for details about email publishing - https://docs.codemagic.io/publishing-yaml/distribution/#email
       email:
