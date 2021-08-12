@@ -1,10 +1,10 @@
 workflows:
   ios-workflow:
     name: iOS Workflow
-    instance_type: mac_pro
-      flutter: stable
-      xcode: latest
-      cocoapods: default
+#     instance_type: mac_pro
+#       flutter: stable
+#       xcode: latest
+#       cocoapods: default
 #     scripts:
 #       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
 #         script: |
